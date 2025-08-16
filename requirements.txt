@@ -7,3 +7,11 @@ openpyxl
 torch
 pandas
 numpy
+transformers
+datasets
+tiktoken
+wandb
+tqdm
+matplotlib
+graphviz
+digraph
