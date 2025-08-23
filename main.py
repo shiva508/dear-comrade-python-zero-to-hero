@@ -1,8 +1,5 @@
-from transformers import pipeline
-import torch
-print(torch.__version__)
-print(torch.cuda.is_available())
+import ollama
 
-model = pipeline("summarization", model="facebook/bart-large-cnn")
-response = model("Text to summarize goes here")
-print(response)
+response = ollama.generate(model='gemma3:270m', prompt='What is HDR?')
+print(response['response'])
+

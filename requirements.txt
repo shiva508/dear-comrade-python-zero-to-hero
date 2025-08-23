@@ -1,5 +1,1 @@
-transformers
-langcache
-langchain-huggingface
-hf_xet
-torch
+ollama
